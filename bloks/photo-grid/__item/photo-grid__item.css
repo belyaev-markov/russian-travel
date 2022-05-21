@@ -36,7 +36,7 @@
   background-image: url(../../../sprint-3-images/photo-grid-baikal-2.jpg);
 }
 .photo-grid__item:nth-of-type(12) {
-  background-image: url(../../../sprint-3-images/photo-grid-ergaki.jpg)
+  background-image: url(../../../sprint-3-images/photo-grid-ergaki.jpg);
 }
 
 @media screen and (min-width:1024px) and (max-width:1280px) {
