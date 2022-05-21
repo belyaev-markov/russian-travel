@@ -1,0 +1,8 @@
+.lead__image {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  padding-bottom: calc(61500%/984);
+  background-image: url(../../../sprint-3-images/lead-polka.jpg);
+  background-size: contain;
+}

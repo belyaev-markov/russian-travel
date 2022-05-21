@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: normal;
+  src: url(../../../Inter/Inter-Medium.otf);
+}
+.intro__list {
+  list-style-type: none;
+  margin: 33px 0 0 0;
+  padding: 0;
+  width: 100;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(18/12);
+}

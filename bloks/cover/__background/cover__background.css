@@ -1,0 +1,7 @@
+.cover__background {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  padding-bottom: calc(74700%/1184);
+  background-image: url(../../../sprint-3-images/cover-trains.jpg);
+}

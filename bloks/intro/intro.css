@@ -1,0 +1,19 @@
+.intro {
+  margin: 114px 442px 0 148px;
+  width: calc(69000%/1280);
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+  .intro {
+    width: calc(69000%/1024);
+  }
+}
+@media all and (min-width:768px) and (max-width:1024px) {
+  .intro {
+    width: calc(72000%/768);
+  }
+}
+@media all and (min-width:320px) and (max-width:768px) {
+  .intro {
+    width: calc(28800%/320);
+  }
+}
