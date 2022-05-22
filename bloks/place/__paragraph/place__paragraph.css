@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'Inter';
-  font-weight: normal;
-  src: url(../../../../Inter/Inter-Medium.otf);
-}
 .place__pharagraf {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: regular;
   font-size: 18px;
   line-height: 1.63;
 }
