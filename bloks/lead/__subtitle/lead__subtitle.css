@@ -1,7 +1,7 @@
 .lead__subtitle {
   grid-row: 2;
   justify-self: center;
-  width: calc(48500%/948);
+  width: 510px;
   margin: 32px 0 64px 0;
   padding: 0;
   font-family: 'Inter';
@@ -11,4 +11,12 @@
   line-height: calc(36/30);
   text-align: center;
   color: #FFFFFF;
+}
+
+@media all and (max-width:767px) {
+  .lead__subtitle {
+    width: 300px;
+    font-size: 16px;
+    line-height: calc(20/16);
+  }
 }
