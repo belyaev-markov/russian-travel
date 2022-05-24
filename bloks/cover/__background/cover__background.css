@@ -5,6 +5,3 @@
   padding-bottom: calc(74700%/1184);
   background-image: url(../../../sprint-3-images/cover-trains.jpg);
 }
-.cover__background:hover {
-  opacity: 0.8;
-}
