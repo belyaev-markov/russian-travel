@@ -2,6 +2,25 @@
   grid-column: 1;
   grid-row: 1;
   width: 100%;
-  padding-bottom: calc(74700%/1184);
+  padding-bottom: calc(74000%/1184);
   background-image: url(../../../sprint-3-images/cover-trains.jpg);
+  background-size: contain;
+}
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    width: 100%;
+    padding-bottom: calc(64000%/1024);
+  }
+}
+@media all and (max-width: 1023px) {
+  .cover__background {
+    width: 100%;
+    padding-bottom: calc(48000%/768);
+  }
+}
+@media screen and (max-width: 767px) {
+  .cover__background {
+    width: 100%;
+    padding-bottom: calc(20000%/320);
+  }
 }

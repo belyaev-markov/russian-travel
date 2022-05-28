@@ -16,6 +16,7 @@
 }
 @media all and (max-width:767px) {
   .header {
+    margin-top: 16px;
     width: calc(28800%/320);
   }
 }

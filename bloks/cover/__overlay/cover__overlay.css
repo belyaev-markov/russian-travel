@@ -1,5 +1,4 @@
 .cover__overlay {
-  display: inline-block;
   grid-column: 1;
   grid-row: 1;
   width: 100%;

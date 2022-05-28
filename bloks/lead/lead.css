@@ -12,11 +12,11 @@
 }
 @media all and (max-width:1023px) {
   .lead {
-    width: calc(72000%/768);
+    width: 100%;
   }
 }
 @media all and (max-width:767px) {
   .lead {
-    width: calc(28800%/320);
+    width: 100%;
   }
 }

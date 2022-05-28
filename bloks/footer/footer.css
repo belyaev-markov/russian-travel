@@ -1,21 +1,20 @@
 .footer {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 1fr calc(53300%/1184) max-content;
+  display: flex;
+  justify-content: space-between;
   margin: 92px 0 24px 0;
   width: calc(118400%/1280);
 }
-@media  screen and (max-width:1279px) {
+@media  screen and (max-width: 1279px) {
   .footer {
     width: calc(92800%/1024);
   }
 }
-@media  screen and (max-width:1023px) {
+@media  all and (max-width: 1023px) {
   .footer {
     width: calc(72000%/768);
   }
 }
-@media  screen and (max-width:767px) {
+@media  all and (max-width: 767px) {
   .footer {
     margin: 64px auto 24px 16px;
     width: calc(18600%/320);

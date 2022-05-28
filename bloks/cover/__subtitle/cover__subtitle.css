@@ -1,4 +1,5 @@
 .cover__subtitle {
+  display: inline-block;
   margin: 32px 0 0 0;
   padding: 0;
   width: 370px;
@@ -9,23 +10,11 @@
   line-height: calc(22/18);
   text-align: center;
 }
-@media screen and (max-width:1279px) {
-  .cover__subtitle {
-    width: 370px;
-    font-size: 18px;
-    line-height: calc(22/18);
-  }
-}
-@media all and (max-width:1023px) {
-  .cover__subtitle {
-    width: 370px;
-    font-size: 18px;
-    line-height: calc(22/18);
-  }
-}
+
 @media all and (max-width:767px) {
   .cover__subtitle {
-    width: 380px;
+    margin: 16px 0 0 0;
+    width: 265px;
     font-size: 14px;
     line-height: calc(16/14);
   }

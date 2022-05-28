@@ -1,7 +1,8 @@
 .cover__title {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  width: 500px;
+  width: 530px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;

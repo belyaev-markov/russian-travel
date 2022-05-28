@@ -7,18 +7,21 @@
   align-items: center;
   width: calc(118400%/1280);
 }
-@media  screen and (max-width:1279px) {
+@media  screen and (max-width: 1279px) {
   .cover {
+    margin-top: 92px;
     width: 100%;
   }
 }
-@media  screen and (max-width:1023px) {
+@media  all and (max-width: 1023px) {
   .cover {
+    margin-top: 90px;
     width: 100%;
   }
 }
-@media  screen and (max-width:767px) {
+@media  all and (max-width: 767px) {
   .cover {
+    margin-top: 66px;
     width: 100%;
   }
 }

@@ -1,13 +1,14 @@
-@import url(../fohts.css);
-
 @import url(../vendor/normalize.css);
+@import url(../Inter/fohts.css);
 
 @import url(../bloks/body/body.css);
 @import url(../bloks/page/page.css);
+@import url(../bloks/main/main.css);
 
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
+@import url(../bloks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../bloks/lead/lead.css);
 @import url(../bloks/lead/__title/lead__title.css);
@@ -20,6 +21,7 @@
 @import url(../bloks/intro/__title/intro__title.css);
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/intro/__list/intro__list.css);
+@import url(../bloks/intro/__span-accent/intro__span-accent.css);
 
 @import url(../bloks/photo-grid/photo-grid.css);
 @import url(../bloks/photo-grid/__item/photo-grid__item.css);
@@ -29,8 +31,8 @@
 @import url(../bloks/place/__title/place__title.css);
 @import url(../bloks/place/__image/place__image.css);
 @import url(../bloks/place/__website/place__website.css);
-@import url(../bloks/place/__website/__url-heading/place__url-heading.css);
-@import url(../bloks/place/__website/__link/place__link.css);
+@import url(../bloks/place/__url-heading/place__url-heading.css);
+@import url(../bloks/place/__link/place__link.css);
 @import url(../bloks/place/__text/place__text.css);
 @import url(../bloks/place/__paragraph/place__paragraph.css);
 
@@ -42,7 +44,12 @@
 @import url(../bloks/cover/__background/cover__background.css);
 
 @import url(../bloks/footer/footer.css);
+@import url(../bloks/footer/__navigation/footer__navigation.css);
 @import url(../bloks/footer/__links/footer__links.css);
 @import url(../bloks/footer/__link/footer__link.css);
 @import url(../bloks/footer/__item/footer__item.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);
+
+@media screen and (max-width: 1279px) {
+
+}

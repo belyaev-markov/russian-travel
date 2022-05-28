@@ -11,7 +11,7 @@
     width: calc(92800%/1024);
   }
 }
-@media all and and (max-width:1023px) {
+@media all and (max-width:1023px) {
   .places {
     margin-top: 88px;
     width: calc(72000%/768);
