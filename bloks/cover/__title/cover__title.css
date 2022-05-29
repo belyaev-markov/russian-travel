@@ -3,26 +3,14 @@
   margin: 0;
   padding: 0;
   width: 530px;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: calc(76/72);
   text-align: center;
 }
-@media screen and (max-width:1279px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: calc(76/72);
-  }
-}
-@media all and (max-width:1023px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: calc(76/72);
-  }
-}
-@media all and (max-width:767px) {
+@media all and (max-width: 767px) {
   .cover__title {
     width: 250px;
     font-size: 32px;

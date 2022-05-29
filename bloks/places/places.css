@@ -5,19 +5,19 @@
   justify-content: space-between;
   width: calc(98400%/1280);
 }
-@media screen and (max-width:1279px) {
+@media screen and (max-width: 1279px) {
   .places {
     margin-top: 92px;
     width: calc(92800%/1024);
   }
 }
-@media all and (max-width:1023px) {
+@media all and (max-width: 1023px) {
   .places {
     margin-top: 88px;
     width: calc(72000%/768);
   }
 }
-@media all and (max-width:767px) {
+@media all and (max-width: 767px) {
   .places {
     margin-top: 64px;
     width: 100%;
