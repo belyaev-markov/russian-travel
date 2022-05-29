@@ -39,6 +39,7 @@
 @import url(../bloks/place/__paragraph/place__paragraph.css);
 
 @import url(../bloks/cover/cover.css);
+@import url(../bloks/cover/__link/cover__link.css);
 @import url(../bloks/cover/__text/cover__text.css);
 @import url(../bloks/cover/__title/cover__title.css);
 @import url(../bloks/cover/__subtitle/cover__subtitle.css);
