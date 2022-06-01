@@ -16,7 +16,6 @@
 @import url(../bloks/lead/__title/lead__title.css);
 @import url(../bloks/lead/__subtitle/lead__subtitle.css);
 @import url(../bloks/lead/__image/lead__image.css);
-@import url(../bloks/lead/__image/Group4/Ellipce.css);
 @import url(../bloks/lead/__caption/lead__caption.css);
 
 @import url(../bloks/intro/intro.css);
@@ -40,11 +39,8 @@
 
 @import url(../bloks/cover/cover.css);
 @import url(../bloks/cover/__link/cover__link.css);
-@import url(../bloks/cover/__text/cover__text.css);
 @import url(../bloks/cover/__title/cover__title.css);
 @import url(../bloks/cover/__subtitle/cover__subtitle.css);
-@import url(../bloks/cover/__overlay/cover__overlay.css);
-@import url(../bloks/cover/__background/cover__background.css);
 
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__navigation/footer__navigation.css);

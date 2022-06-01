@@ -1,5 +1,4 @@
 .cover__subtitle {
-  display: inline-block;
   margin: 32px 0 0 0;
   padding: 0;
   width: 370px;
@@ -9,6 +8,8 @@
   font-size: 18px;
   line-height: calc(22/18);
   text-align: center;
+  color: white;
+  z-index: 2;
 }
 
 @media all and (max-width: 767px) {
